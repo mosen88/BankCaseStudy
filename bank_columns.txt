@@ -1,0 +1,21 @@
+Data Set Information
+   The data is related with direct marketing campaigns of a banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
+   The goal is to create a model that can predict if the client will subscribe (yes/no) a term deposit (variable y).
+
+Attribute information
+   1 - ages
+   2 - jobs : type of job 
+   3 - maritals : marital status
+   4 - educations
+   5 - defaults: has credit in default? 
+   6 - balances: average yearly balance, in euros 
+   7 - housings: has housing loan?
+   8 - loans: has personal loan? 
+   9 - contacts: contact communication type
+  10 - days: last contact day of the month 
+  11 - months: last contact month of year
+  12 - durations: last contact duration, in seconds
+  13 - campaigns: number of contacts performed during this campaign and for this client
+
+  Output variable (desired target):
+  17 - y - has the client subscribed a term deposit? (binary: "yes","no")
